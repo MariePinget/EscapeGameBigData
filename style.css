@@ -1,15 +1,13 @@
-/* Commun à toutes les pages */
+
 
 body
 {
-    background-image: url("fond.jpg");
+    /*background-image: url("fond.jpg");*/
     background-attachment: fixed;
-}
-
-.contact
-{
+    background-color: rgb(127, 143, 166);
     text-align: center;
 }
+
 
 footer
 {
@@ -30,9 +28,8 @@ footer
 
 .contexte
 {
-    text-align: center;
-    color: white;
-    font-family: Impact;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
 }
 
@@ -41,14 +38,11 @@ footer
     font-weight: bold;
 }
 
-.boutonDemarrer
-{
-    text-align: center;
-}
+
 
 .demarrer
 {
-    color: white;
+   /color: white;
     font-weight: normal;
     font-size: 30px;
     font-family: Impact;
@@ -57,7 +51,30 @@ footer
     background-color: green;
     padding: 5px;
     padding-bottom: 1px;
-    padding-top: 1px;
+    padding-top: 1px; 
 }
 
-/* Serious Game 1 */
+
+
+/* Serious Game Video enigme 1 */
+
+.videoIntro
+{
+    max-width: 100%;
+    height: auto;
+   
+ }
+
+ .titre
+{
+    font-size: 40px;
+    font-family: Impact;
+}
+
+.TexteVideo
+{
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
