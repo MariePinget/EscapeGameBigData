@@ -78,3 +78,13 @@ footer
     font-size: 20px;
 }
 
+
+/* Minuteur */
+#minutes
+{
+    color: white;
+    font-family:Impact;
+    font-size: 20px;
+    background-color:black;
+    border-radius: 10px;
+}

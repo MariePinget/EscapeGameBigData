@@ -7,9 +7,12 @@
     </head>
 
     <body>
+    <?php include("rebour.php"); ?>
     	<header>
     	 	<h1 class="titre">CODE</h1>
-		</header>
+        </header>
+        
+        
 		
         <?php
             if ($_POST['code']== "1234") 
@@ -22,7 +25,6 @@
                     
             } 
         ?>
-
 		
     	<!--<footer>
     		<p class="contact"><a href="mailto:votrenom@bidule.com">Contacter DAP.</a></p>    	
